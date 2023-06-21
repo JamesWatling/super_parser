@@ -3,7 +3,7 @@
 module SuperParser
   module ResponseObjects
     class Employer < Base
-      attributes :company_name, :role, :from_year, :from_month, :is_current, :description, :skills, :to_year
+      attributes :company_name, :role, :from_year, :from_month, :is_current, :description, :skills, :to_year, :to_month
     end
   end
 end

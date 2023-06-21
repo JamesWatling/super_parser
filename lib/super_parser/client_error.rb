@@ -2,11 +2,11 @@
 
 module SuperParser # :nodoc:
   class ClientError < StandardError
-    attr_reader :status
+    attr_reader :code
 
     def initialize(response)
       error = JSON.parse response.body
-      @status = response.status
+      @code = response.code
       super(error['message'])
     end
   end
