@@ -6,6 +6,10 @@
 /pkg/
 /spec/reports/
 /tmp/
+/vendor/bundle/
+test.rb
+*.txt
+*.docx
 
 # rspec failure tracking
 .rspec_status
